@@ -17,7 +17,7 @@ for (let i in book1){
     console.log("Book: "+book1[i]);
 }
 
-/* declaring function weather with parameters */
+/* defining objects with parameters */
 function weather(intensity,humidity,pressure,hurricane,thunderstorm) {
     this.intensity = intensity;
     this.humidity = humidity;
