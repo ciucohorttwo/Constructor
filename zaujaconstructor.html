@@ -1,0 +1,77 @@
+<script>
+    /*The lake object */
+
+
+   function lake(name, type, depth)
+    {
+        this.name =name;
+        this.type = type;
+        this.depth = depth;
+    }
+    var uganda= new lake("victoria", "freshwater", "deepwater");
+    for(let l in uganda){
+        document.write("<p><b>"+uganda[l]+"</b></p>");
+    }
+
+// the house object 
+
+
+    function house( type,  color, size)
+{
+
+this.type=type;
+this.color=color;
+this.size = size;
+
+}
+var house1=new house("flat","cream",5);
+for(let key in house1){
+    document.write("<p><b>"+house1[key] + "</b></p>");
+} 
+    
+
+
+
+/*The bag object */
+
+
+   function bag(name, color, material)
+    {
+        this.name =name;
+        this.color = color;
+        this.material = material;
+    }
+    var handbag = new bag("ainvoes", "blue", "leather");
+    for(let b in handbag){
+        document.write("<p><b>" +handbag[b]+ "</b></p>");
+    }
+
+    
+/*The hair object*/
+
+
+  function hair(type, length, color)
+    {
+        this.type= type;
+        this.length =length;
+        this.color = color;
+    }
+    var head = new hair("afro", "long","black");
+    for(let h in head){
+        document.write("<p><b>" +head[h]+ "</b></p>");
+    }
+
+/* The food object */
+function food(name, type, taste)
+    {
+        this.name =name;
+        this.type = type;
+        this.taste = taste;   
+    }
+    var dish = new food("irish", "protein", "sweet");
+    for(i in dish){
+        document.write("<p><b>" +dish[i]+ "</b></p>");
+   
+    }
+
+</script>
