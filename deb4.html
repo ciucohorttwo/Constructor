@@ -1,3 +1,7 @@
+<!-- 
+
+    author Deb
+ -->
 <!-- this is the first assignment on Obejct Oriented Programming -->
 <!DOCTYPE html>
 <html lang="en">
@@ -26,14 +30,14 @@
 
         for (let key in woman1) {
             console.log(woman1[key]);
-            document.write('<p>' + woman1[key] + '<p>');
+            document.write("<p>the woman is "  + woman1[key] + '<p>');
         }
 
         var woman2 = new woman("kalungi", 16, "single", "Masaka", "introvert");
 
         for (let key in woman2) {
             console.log(woman2[key]);
-            document.write('<p>' + woman2[key] + '<p>');
+            document.write("<p>the woman is " + woman2[key] + '<p>');
         }
 
         /*
@@ -48,12 +52,12 @@
         }
         firstchild = new child("Xoo", 16, "female", "katutura", "bushmen");
         for(let kid in firstchild){
-        document.write('<p>' +firstchild[kid]+ '</p>');
+        document.write("<p> The child is" +firstchild[kid]+ '</p>');
         }
 
         secondChild = new child("Esther", 6, "female", "kampala", "Muganda");
         for(let kid in secondChild){
-        document.write('<p>' +secondChild[kid]+ '</p>');
+        document.write("<p> The child is" +secondChild[kid]+ '</p>');
         }
 
         /*
@@ -68,12 +72,12 @@
         }
         var lake = new waterSource("lake Victoria", "Masaka", "100miles", "lake", 7);
         for(let key in lake){
-            document.write('<p>'+ lake[key]+'</p>');
+            document.write("<p> The water body is "+ lake[key]+'</p>');
         }
 
         var river = new waterSource("river Manafa", "jinja", "10miles", "river", 4);
         for(let key in river){
-            document.write('<p>'+ river[key]+'</p>');
+            document.write("<p> The water body is "+ river[key]+'</p>');
         }
        
         /*
@@ -88,12 +92,12 @@
         }
         soil1 = new soil("loam", "100%", "relatively rough", "modorately porous", "black",);
         for(let key in soil1){
-            document.write('<p>'+ soil1[key] +'</p>');
+            document.write("<p> The soil is "+ soil1[key] +'</p>');
         }
 
         soil2 = new soil("sandy", "10%", "rough", "porous", "white",);
         for(let key in soil1){
-            document.write('<p>'+ soil2[key] +'</p>');
+            document.write("<p> The water body is "+ soil2[key] +'</p>');
         }
         
  
@@ -110,11 +114,11 @@
         }
         school1 = new school("Ndejje secondary school", "Ndejje", "Excellent", 900, 20,);
         for(let key in school1){
-            document.write('<p>'+ school1[key]+'</p');
+            document.write("<p> The school is "+ school1[key]+'</p');
         }
         school2 = new school("kawempe primary school", "kawempe", "poor", 400, 10,);
         for(let key in school1){
-            document.write('<p>'+ school2[key]+'</p');
+            document.write("<p> The school is "+ school2[key]+'</p');
         }
      
     </script>

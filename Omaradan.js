@@ -1,4 +1,4 @@
-//function with parameters television
+//object with parameters television
 function television(model,power,size,type,shape){
 this.model = model;
 this.power = power;
@@ -16,7 +16,7 @@ for(let key in television1) {
     console.log(television1[key]);
 }
 
-//function with parameters shoe
+//object with parameters shoe
 function shoe(name,model,color,size,label){
     this.name = name;
     this.model = model;
@@ -35,7 +35,7 @@ function shoe(name,model,color,size,label){
         console.log(shoe1[key]);
     }
 
-//function with parameters school
+//object with parameters school
     function school(floor,block,level,compound,neighbourhood){
         this.floor = floor;
         this.block = block;
@@ -54,7 +54,7 @@ function shoe(name,model,color,size,label){
             console.log(school1[key]);
         }
 
-//function with parameters plane
+//object with parameters plane
         function plane(type,model,manufacturer,color,industry){
             this.type = type;
             this.model = model;
@@ -72,7 +72,7 @@ function shoe(name,model,color,size,label){
                 console.log(plane1[key]);
             }
 
-//function with parameters animal
+//object with parameters animal
             function animal(name,sex,type,cry,defence){
                 this.name = name;
                 this.sex = sex;
