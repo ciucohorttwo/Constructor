@@ -1,9 +1,9 @@
 /* object teacher*/
 function teacher(FirstName, LastName, position, age) {
-    this.FirstName = FirstName;
-    this.LastName = LastName;
-    this.position = position;
-    this.age = age;
+    this.FirstName = FirstName;                             //initializing a value to a property
+    this.LastName = LastName;                               //initializing a value to a property
+    this.position = position;                               //initializing a value to a property
+    this.age = age;                                         //initializing a value to a property
 }
 
 teacher1 = new teacher('Walter', 'Patel', 'deputy', '30 years old')
@@ -22,11 +22,11 @@ for (let record in teacher3) {
 
 /* object person*/
 function person(name, age, dob, size, origin) {
-    this.name = name;
-    this.age = age;
-    this.dob = dob;
-    this.size = size;
-    this.origin = origin;
+    this.name = name;                              //initializing a value to a property
+    this.age = age;                               //initializing a value to a property
+    this.dob = dob;                               //initializing a value to a property
+    this.size = size;                             //initializing a value to a property
+    this.origin = origin;                        //initializing a value to a property
 }
 
 person1 = new person('Omega Samson', 25, 1995, '72 inches', 'teso');
@@ -45,11 +45,11 @@ for (let history in person3) {
 
 /* object country*/
 function country(name, size, language, population, color) {
-    this.name = name;
-    this.size = size;
-    this.language = language;
-    this.population = population;
-    this.color = color;
+    this.name = name;                               //initializing a value to a property
+    this.size = size;                               //initializing a value to a property
+    this.language = language;                       //initializing a value to a property
+    this.population = population;                   //initializing a value to a property
+    this.color = color;                             //initializing a value to a property
 }
 
 country1 = new country('Uganda', 'small', 'English', '30millions', 'black');
@@ -68,11 +68,11 @@ for (let status in country3) {
 
 /* object teacher*/
 function company(name, product, location, yearOfStart, sponsor) {
-    this.name = name;
-    this.product = product;
-    this.location = location;
-    this.yearOfStart = yearOfStart;
-    this.sponsor = sponsor;
+    this.name = name;                       //initializing a value to a property
+    this.product = product;                 //initializing a value to a property
+    this.location = location;               //initializing a value to a property
+    this.yearOfStart = yearOfStart;         //initializing a value to a property
+    this.sponsor = sponsor;                 //initializing a value to a property
 }
 
 company1 = new company('Laboremus', 'software development', 'Muyenga', 2013, 'NORAD');
@@ -91,11 +91,11 @@ for (let about in company3) {
 
 /* object teacher*/
 function hospital(name, location, services, workingHours, availableJobs) {
-    this.name = name;
-    this.location = location;
-    this.services = services;
-    this.workingHours = workingHours;
-    this.availableJobs = availableJobs;
+    this.name = name;                               //initializing a value to a property
+    this.location = location;                       //initializing a value to a property
+    this.services = services;                        //initializing a value to a property
+    this.workingHours = workingHours;               //initializing a value to a property
+    this.availableJobs = availableJobs;             //initializing a value to a property
 }
 
 hospital1 = new hospital('Mulago', 'Wandegeya', 'heart, eyes,ears and other more.', '24hrs', 'Nursing jobs.');
