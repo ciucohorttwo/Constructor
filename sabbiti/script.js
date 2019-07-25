@@ -2,7 +2,7 @@
 // SABBITI ISAAC PASCHAL's work.
 // ============================================================================================================================================
 
-//An assignment making 5 functions that have for loops
+//An assignment making 5 functions that have "for" loops
 
 
 
@@ -34,7 +34,7 @@ var city3 = new city ("Nairobi","bigger than kampala", "7", "dirty" );
 
 // a for_loop that iterates through the contents of city1
 
-for (key in city1){
+for (let key in city1){
 
 // it prints to the console
 
@@ -74,8 +74,10 @@ var vehicle3 = new vehicle ("volkwagen touareg","grey", "UBS374W", "SUV" );
 
 // a for_loop that iterates through the contents of vehicle1
 
-for (key in vehicle1){
-
+for (let key in vehicle1){
+	
+// it prints to the console
+	
 console.log (vehicle1[key]);
 
 }
@@ -115,8 +117,10 @@ var phone3 = new phone ("Tecno","golden", "$300", "China" );
 
 // a for_loop that iterates through the contents of phone1
 
-for (key in phone1){
-
+for ( let key in phone1){
+	
+// it prints to the console
+	
 console.log (phone1[key]);
 
 }
@@ -131,8 +135,8 @@ console.log (phone1[key]);
 function Ex (name, weeksWith, skinColor, Job) {
 
 //this function has 4 parameters
-
-	this.weeksWith = weeksWith;
+	this.name = name
+        this.weeksWith = weeksWith;
 	this.skinColor = skinColor;
 	this.Job = Job;
 
@@ -151,8 +155,10 @@ var Ex3 = new Ex ("Sandra","8", "white", "Author" );
 
 // a for_loop that iterates through the contents of Ex1
 
-for (key in Ex1){
+for (let key in Ex1){
 
+// it prints to the console	
+	
 console.log (Ex1[key]);
 
 }
@@ -189,8 +195,10 @@ var chair3 = new chair ("white","3-legged", "wooden", "light" );
 
 // a for_loop that iterates through the contents of chair1
 
-for (key in chair1){
-
+for (let key in chair1){
+	
+// it prints to the console
+	
 console.log (chair1[key]);
 
 }
