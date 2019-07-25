@@ -2,8 +2,9 @@
 // SABBITI ISAAC PASCHAL's work.
 // ============================================================================================================================================
 
-//An assignment making 5 functions that have "for" loops
-// Using key words "this" and "let key in"
+
+/* An assignment making 5 functions that have "for" loops
+   Using key words "this" and "let key in" */
 
 
 // 1.
