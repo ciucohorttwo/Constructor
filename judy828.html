@@ -1,0 +1,117 @@
+<script>
+    /*declaring a function and assigning the various values to properties*/
+    function pen(lifespan, weight, md,height ,color){
+        this.lifespan = lifespan;
+        this.weight = weight;
+        this.md = md;
+        this.height = height;
+        this.color = color;
+    }
+
+    //instantiation of objects in a constructor  
+    var pen1 = new pen("long","light",2018,"12cm","red");
+    for (let key in pen1){
+        console.log(pen1[key]);
+        
+    
+    }
+    var pen2 = new pen("short","heavy",2016,"14cm", "green");
+    for (let key in pen2){
+        console.log("the pen is " + pen2[key]);
+    
+    }
+
+     //declaring a function and assigning the various values to properties
+    function cloth(material, color, fashion, manufacturer, size){
+        this.material = material;
+        this.color = color;
+        this.fashion = fashion;
+        this.manufacturer = manufacturer;
+        this.size = size;
+
+    }
+    //instantiation of objects in a constructor 
+    var cloth1 =new cloth("cotton", "blue", "v-shaped", "nytil", "medium");
+    for(let key in cloth1){
+        console.log(cloth1[key]);
+    }
+
+    var cloth2 = new cloth("silk","orange","oval-shaped","nytil","large");
+    for(let key in cloth2){
+        console.log("my cloth is " + cloth2[key]); 
+    }
+
+    //declaring a function and assigning the various values to properties
+    function person(height, weight, color, hair,eye){
+        this.height = height;
+        this.weight = weight;
+        this.color = color;
+        this.hair = hair;
+        this.eye = eye;
+
+    }
+    //instantiation of objects in a constructor
+    var person1 = new person("tall","50kg","dark","curly","big");
+    for(let key in person1){
+        console.log(person1[key]);
+    }
+
+    var person2 = new person("short", "75kg", "brown","straight","tiny");
+    for(let key in person2){
+        console.log("that particular person is " + person2[key]);
+    }
+
+    //declaration of a function and assigning various values to properties
+    function food(name, type, packaging, value,transport){
+    this.name = name;
+    this.type = type;
+    this.packaging = packaging;
+    this.value = value;
+    this.transport = transport;
+    }
+    //instantiation of objects in a constructor
+
+    var food1 = new food("beans", "cereal", "sack", "protein", "truck");
+    for (let key in food1){
+        console.log(food1[key]);
+    }
+
+    var food2 = new food("cassava","carbohydrate","boxed","starch","pickedup");
+    for (let key in food2){
+        console.log("my food is " + food2[key]);
+    }
+
+    //declaring of a function and assigning various values to properties
+    function book(cover, color, height, quality,user){
+    this.cover = cover;
+    this.color = color;
+    this.height = height;
+    this.quality = quality;
+    this.user = user;
+    }
+
+    //instantiation of objects in a constructor
+    var book1 =new book("soft","brown","short","good","judith");
+    for(let key in book1){
+        console.log(book1[key]);
+
+    }
+
+    var book2 = new book("hard","yellow","long","bad","pesh");
+    for(let key in book2){
+        console.log("the book is " + book2[key]);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
