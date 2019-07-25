@@ -1,4 +1,4 @@
-/* Function the object teacher*/
+/* object teacher*/
 function teacher(FirstName, LastName, position, age) {
     this.FirstName = FirstName;
     this.LastName = LastName;
@@ -20,7 +20,7 @@ for (let record in teacher3) {
     document.write('<p><b>' + this.teacher3[record] + '</b></p>');
 }
 
-/* Function the object person*/
+/* object person*/
 function person(name, age, dob, size, origin) {
     this.name = name;
     this.age = age;
@@ -43,7 +43,7 @@ for (let history in person3) {
     document.write('<p><b> ' + this.person3[history] + '</b></p>');
 }
 
-/* Function the object country*/
+/* object country*/
 function country(name, size, language, population, color) {
     this.name = name;
     this.size = size;
@@ -66,7 +66,7 @@ for (let status in country3) {
     document.write('<p><b> ' + this.country3[status] + '</b></p>');
 }
 
-/* Function the object teacher*/
+/* object teacher*/
 function company(name, product, location, yearOfStart, sponsor) {
     this.name = name;
     this.product = product;
@@ -89,7 +89,7 @@ for (let about in company3) {
     document.write('<p><b> ' + this.company3[about] + '</b></p>');
 }
 
-/* Function the object teacher*/
+/* object teacher*/
 function hospital(name, location, services, workingHours, availableJobs) {
     this.name = name;
     this.location = location;
