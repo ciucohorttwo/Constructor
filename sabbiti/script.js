@@ -135,7 +135,7 @@ console.log (phone1[key]);
 
 // the level of abstraction is amped to Ex'es in this function
 
-function Ex (name, weeksWith, skinColor, Job) {
+function Ex (name, weeksWith, skinColor, Job, tribe) {
 
 //this function has 5 properties
 	
@@ -176,7 +176,7 @@ console.log (Ex1[key]);
 // the level of abstraction is amped to chairs in this function
 
 
-function chair (color, type, material, weight) {
+function chair (color, type, material, weight, location) {
 
 //this function has 5 properties
 
