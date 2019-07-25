@@ -1,4 +1,4 @@
-/* declaring function book eith parameters */
+/* defining objects with parameters */
 
 function book(title,author,publishedDate,genre, publisher){
     this.title = title;
@@ -35,7 +35,7 @@ for (let i in weather1){
     console.log(weather1[i]);
 }
 
-/* declaring function fish with parameters */
+/* defining objects with parameters */
 function fish(name,type,gender,age,weight){
   this.name = name;
   this.type = type;
@@ -52,7 +52,7 @@ for (let i in fish1){
   console.log(fish1[i])
 }
 
-/* declaring function taxi with parameters */
+/* defining objects with parameters */
 function taxi(name,color,numberPlate,seats,engineType){
   this.name = name; 
   this.color = color;
@@ -69,7 +69,7 @@ for(let i in taxi1){
   console.log(taxi1[i])
 }
 
-/* declaring function courseUnits with parameters */
+/* defining objects with parameters */
 function courseUnits(year,semester,duration,type,difficulty){
     this.year = year; 
     this.semester = semester;
