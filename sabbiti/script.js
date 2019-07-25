@@ -156,7 +156,7 @@ var Ex1 = new Ex ("samantha","4", "chocolate", "Accountant" , "mukiga");
 var Ex2 = new Ex ("Shaniqua","47", "brown", "airHostess" ,"muganda");
 
 
-var Ex3 = new Ex ("Sandra","8", "white", "Author", "jophadhola" );
+var Ex3 = new Ex ("Sandra","8", "white", "Author", "n/a" );
 
 // a for_loop that iterates through the contents of Ex1
 
