@@ -1,0 +1,123 @@
+<!-- this is the first assignment on Obejct Oriented Programming -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        /* 
+        this object defines the attributes of a woman
+        */
+        function woman(name, age, maritalStatus, placeOfResidence, personality) {
+            this.name = name;
+            this.age = age;
+            this.maritalStatus = maritalStatus;
+            this.placeOfResidence = placeOfResidence;
+            this.personality = personality;
+        }
+        var woman1 = new woman("deb", 50, "married", "Mattugga", "pure extrovert");
+
+        for (let key in woman1) {
+            console.log(woman1[key]);
+            document.write('<p>' + woman1[key] + '<p>');
+        }
+
+        var woman2 = new woman("kalungi", 16, "single", "Masaka", "introvert");
+
+        for (let key in woman2) {
+            console.log(woman2[key]);
+            document.write('<p>' + woman2[key] + '<p>');
+        }
+
+        /*
+        this is an object for child that analyses lifestage and vulnerability
+        */
+        function child(name, age, sex, placeOfResidice, parentsTribe){
+            this.name = name;
+            this.age = age;
+            this.sex = sex;
+            this.placeOfResidence = placeOfResidice;
+            this.parentsTribe = parentsTribe;
+        }
+        firstchild = new child("Xoo", 16, "female", "katutura", "bushmen");
+        for(let kid in firstchild){
+        document.write('<p>' +firstchild[kid]+ '</p>');
+        }
+
+        secondChild = new child("Esther", 6, "female", "kampala", "Muganda");
+        for(let kid in secondChild){
+        document.write('<p>' +secondChild[kid]+ '</p>');
+        }
+
+        /*
+        defining a water source object
+        */
+        function waterSource(name, place, width, type, waterPh){
+            this.name = name;
+            this.place = place;
+            this.width = width;
+            this.type = type;
+            this.waterPh = waterPh;
+        }
+        var lake = new waterSource("lake Victoria", "Masaka", "100miles", "lake", 7);
+        for(let key in lake){
+            document.write('<p>'+ lake[key]+'</p>');
+        }
+
+        var river = new waterSource("river Manafa", "jinja", "10miles", "river", 4);
+        for(let key in river){
+            document.write('<p>'+ river[key]+'</p>');
+        }
+       
+        /*
+        defining the soil object
+        */
+        function soil(soilType, percentageOfMineralparticals, texture, porosity, color){
+            this.soilType = soilType;
+            this.percentageOfMineralparticals = percentageOfMineralparticals;
+            this.texture = texture;
+            this.porosity = porosity;
+            this.color = color;
+        }
+        soil1 = new soil("loam", "100%", "relatively rough", "modorately porous", "black",);
+        for(let key in soil1){
+            document.write('<p>'+ soil1[key] +'</p>');
+        }
+
+        soil2 = new soil("sandy", "10%", "rough", "porous", "white",);
+        for(let key in soil1){
+            document.write('<p>'+ soil2[key] +'</p>');
+        }
+        
+ 
+        /*
+        defining the school object
+        */
+        function school(nameOfSchool, location, quality, studentPopulation, numberOfClasses){
+            this.nameOfSchool = nameOfSchool;
+            this.location = location;
+            this.quality = quality;
+            this.studentPopulation = studentPopulation;
+            this.numberOfClasses = numberOfClasses;
+
+        }
+        school1 = new school("Ndejje secondary school", "Ndejje", "Excellent", 900, 20,);
+        for(let key in school1){
+            document.write('<p>'+ school1[key]+'</p');
+        }
+        school2 = new school("kawempe primary school", "kawempe", "poor", 400, 10,);
+        for(let key in school1){
+            document.write('<p>'+ school2[key]+'</p');
+        }
+     
+    </script>
+</body>
+
+</html>
