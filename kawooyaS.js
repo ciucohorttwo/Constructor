@@ -35,7 +35,7 @@
 
     
 
- //shoe
+ //object shoe
    function shoes(type, colour, location, flooring, storeys) {
         this.brand = brand;
         this.material = material;
@@ -62,7 +62,7 @@
         for (let key in shoe3) {
 
                 document.write(house3[key] + "\t")
-//dog
+//object dog
     function dog(breed, origin, topSpeed, colour, shoulderHeight) {
         this.breed = breed;
         this.origin = orientation;
@@ -93,7 +93,7 @@
         document.write(dog3[key] + "\t")
 
 
-//gun
+//object gun
     function gun(name, purpose, calliber, range, length) {
         this.name = name;
         this.purpose = purpose;
@@ -123,7 +123,7 @@
 
 
 
-//politician
+//object politician
     function politician(name, position, work, belly, home) {
         this.name = name;
         this.position = position;
