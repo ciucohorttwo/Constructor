@@ -1,4 +1,4 @@
-
+/*assignment: constructors*/
 
 //house
     function house(type, colour, location, flooring, storeys) {
