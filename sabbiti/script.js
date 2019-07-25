@@ -137,7 +137,8 @@ console.log (phone1[key]);
 
 function Ex (name, weeksWith, skinColor, Job) {
 
-//this function has 4 parameters
+//this function has 5 properties
+	
 	this.name = name
         this.weeksWith = weeksWith;
 	this.skinColor = skinColor;
@@ -177,7 +178,7 @@ console.log (Ex1[key]);
 
 function chair (color, type, material, weight) {
 
-//this function has 4 parameters
+//this function has 5 properties
 
 	this.color = color;
 	this.type = type;
