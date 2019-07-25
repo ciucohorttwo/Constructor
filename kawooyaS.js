@@ -1,19 +1,22 @@
-/*assignment: constructors*/
+/*assignment: create five objects*/
 
-//house
-    function house(type, colour, location, flooring, storeys) {
+//object house
+    function house(type, colour, location, flooring, storeys)
+    {
         this.type = type;
         this.colour = colour;
         this.location = location;
         this.flooring = flooring;
         this.storeys = storeys;
     }
-
+//creating new object called house1, and initialising the attributes
     var house1 = new house('bangalow', 'white', 'wali', 'tiles', 1);
     document.write(this.house1.location);
 
+//using key to instantiate the looping through the properties
     for (let key in house1) {
-
+   
+//printing out all properties
         document.write(house1[key] + "\t")
 
     var house2 = new house('condo', 'green', 'gayaza', 'wood', 2);
